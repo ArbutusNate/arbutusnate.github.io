@@ -1,0 +1,164 @@
+/* General */
+body {
+	background-image: url("../images/background.png.png");
+	margin: 0 0 100px;
+}
+p {
+	font-size: 19px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 30px;
+}
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.5em;
+}
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+.content-wrapper {
+	clear: both;
+	border: 1px solid #dddddd;
+	width: 60%;
+	margin: 50px 35px 50px 100px;
+	padding: 35px;
+	background-color: #ffffff;
+	width: 650px;
+	float: left;
+}
+.contentrule {
+	/*background-color: #e0e0e0;*/
+	border-color: #e0e0e0;
+}
+/* Header, Footer, and Nav Bar */
+#head {
+	height: 90px;
+	width: 100%;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	overflow: auto;
+}
+.headername {
+	height: 80px;
+	color: white;
+	padding: 5px 30px;
+	text-align: bottom;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 100px;
+	float: left;
+	background-color: #4aaaa5;
+}
+footer {
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	clear: both;
+	background-color: #666666;
+    height: 100px;
+    width: 100%;
+    border-top: 10px solid #4baaa5;
+    line-height: 100px;
+}
+.navbar {
+	height: 90px;
+	width: 270px;
+	line-height: 90px;
+	margin-right: 150px;
+	float: right;
+	background-color: white;
+    text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #d1d1d1;
+	font-size: 27px;
+	text-decoration: none;
+	width: auto;
+}
+a {
+	text-decoration: none;
+	color: #d1d1d1;
+}
+
+/* Connect Box */
+#connect {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	width: 270px;
+	height: auto;
+	margin: 50px 20px;
+	float: left;
+	padding: 30px 30px;
+}
+.icon {
+	width: 20%;
+	margin: 2%;
+}
+/* Main Page */
+#profile {
+	float: left;
+	padding: 0px 20px 10px 0px;
+}
+/* Portfolio Page */
+.port-frame {
+	float: left;
+	margin: 15px;
+	height: 205px;
+	width: 275px;
+}
+.port-text {
+	position: relative;
+	bottom: 45%;
+	float: left;
+	text-align: center;
+	line-height: 60px;
+	height: 60px;
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 16px;
+	width: 275px;
+}
+/* Contact Page */
+#contactform {
+	font-size: 18px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+input[type=text] {
+	width: 100%;
+	height: 35px;
+	border: 2px solid #d1d1d1;
+	color: #d1d1d1;
+}
+input[type=submit] {
+	width: 150px;
+	height: 25px;
+	border-radius: 5px;
+    border: 0;
+ 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #4aaaa5;
+    color: white;
+}
+textarea {
+	width: 100%;
+	height: auto;
+}
+::-webkit-input-placeholder {
+  color: #d1d1d1;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+::-moz-placeholder {
+  color: #d1d1d1;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+:-ms-input-placeholder {
+  color: #d1d1d1;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+:-moz-placeholder {
+  color: #d1d1d1;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+input {
+ text-indent: 25px;
+}
