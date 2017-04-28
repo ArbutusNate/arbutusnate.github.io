@@ -1,7 +1,6 @@
 /* General */
 body {
 	background-image: url("../images/background.png.png");
-	margin: 0 0 100px;
 }
 p {
 	font-size: 19px;
@@ -22,6 +21,9 @@ h2 {
 	font-size: 2em;
 	font-weight: bold;
 }
+nav a:hover {
+	background-color: #4aaaa5;
+}
 .content-wrapper {
 	clear: both;
 	border: 1px solid #dddddd;
@@ -33,7 +35,6 @@ h2 {
 	float: left;
 }
 .contentrule {
-	/*background-color: #e0e0e0;*/
 	border-color: #e0e0e0;
 }
 /* Header, Footer, and Nav Bar */
@@ -88,6 +89,10 @@ a {
 	color: #d1d1d1;
 }
 
+/*a:hover { 
+    background-color: yellow;
+}*/
+
 /* Connect Box */
 .connectheader {
 	text-align: center;
@@ -139,10 +144,11 @@ a {
 	color: #777777;
 }
 input[type=text] {
-	width: 100%;
+	width: 90%;
 	height: 35px;
 	border: 2px solid #d1d1d1;
 	color: #d1d1d1;
+	padding: 0px 35px;
 }
 input[type=submit] {
 	width: 150px;
@@ -172,7 +178,4 @@ textarea {
 :-moz-placeholder {
   color: #d1d1d1;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-input {
- text-indent: 25px;
 }
